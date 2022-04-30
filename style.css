@@ -1,0 +1,151 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.title {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 80%;
+}
+
+.list-form {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.input-task {
+  outline: none;
+  color: #000;
+  border: none;
+  width: 90%;
+  font-size: 20px;
+  line-height: 80%;
+  font-style: italic;
+}
+
+.input-item {
+  outline: none;
+  color: #000;
+  border: none;
+  width: 90%;
+  font-size: 20px;
+  line-height: 80%;
+  background-color: transparent;
+}
+
+.btn-form {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-right: 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-first {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.list-item-second {
+  display: none;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: darksalmon;
+}
+
+.task-item {
+  color: #000;
+  font-size: 20px;
+  line-height: 80%;
+  width: 90%;
+}
+
+.task-check {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #a9a9a9;
+  cursor: pointer;
+}
+
+a {
+  color: #000;
+}
+
+.task-option {
+  cursor: all-scroll;
+}
+
+.task-option-remove {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d3d3d3;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: darkcyan;
+}
+
+.label-check {
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+@media (min-width: 768px) {
+  .list {
+    width: 60%;
+    margin-top: 100px;
+  }
+}
