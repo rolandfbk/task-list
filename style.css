@@ -15,7 +15,6 @@ main {
 
 .list {
   width: 100%;
-  margin-top: 10px;
 }
 
 .list-title {
@@ -24,6 +23,11 @@ main {
   justify-items: center;
   padding: 20px;
   border-bottom: 1px solid #d3d3d3;
+  background-color: #b22222;
+}
+
+.list-title a {
+  color: #fff;
 }
 
 .title {
@@ -33,6 +37,7 @@ main {
   font-weight: bold;
   font-size: 25px;
   line-height: 80%;
+  color: #fff;
 }
 
 .list-form {
@@ -125,12 +130,13 @@ a {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #d3d3d3;
+  background-color: #1e90ff;
 }
 
 .footer a {
   text-decoration: none;
   font-size: 20px;
+  color: #fff;
 }
 
 .footer a:hover {
